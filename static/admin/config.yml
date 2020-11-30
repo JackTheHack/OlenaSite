@@ -44,3 +44,55 @@ collections:
       - { label: 'Project Url', name: 'project_url', widget: 'string', required: false}
       - { label: 'Categories', name: 'categories', widget: 'list', required: false}
       - { label: 'Body', name: 'body', widget: 'markdown', required: false}
+  - label: 'Data'
+    name: 'data'
+    files:      
+      - label: "Homepage"
+        name: "homepage"
+        file: "data/homepage.yml"
+        fields:
+          - label: 'Banner'
+            name: 'banner'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'markdown'}
+          - label: 'About'
+            name: 'about'
+            widget: 'object'
+            fields:
+              - {label: 'Enabled', name: 'enable', widget: 'boolean'}
+              - {label: 'Content', name: 'content', widget: 'markdown'}
+              - label: 'Button'
+                name: 'button'
+                widget: 'object'
+                fields:
+                  - {label: 'Enable', name: 'enable', widget: 'boolean'}
+                  - {label: 'Label', name: 'label', widget: 'string'}
+                  - {label: 'Url', name: 'url', widget: 'string'}
+          - label: 'Service'
+            name: 'service'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string'}
+              - {label: 'Enabled', name: 'enable', widget: 'boolean'}
+              - label: 'Items'
+                name: 'item'
+                widget: 'object'
+                fields:
+                  - {label: 'Title', name: 'title', widget: 'string'}
+                  - {label: 'Icon', name: 'icon', widget: 'string'}
+                  - {label: 'Content', name: 'content', widget: 'markdown'}
+                  - {label: 'Highlighted', name: 'highlighted', widget: 'boolean'}
+          - label: 'Education'
+            name: 'education'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string'}
+              - {label: 'Enabled', name: 'enable', widget: 'boolean'}
+              - label: 'Items'
+                name: 'item'
+                widget: 'object'
+                fields:
+                  - {label: 'Title', name: 'title', widget: 'string'}
+                  - {label: 'Year', name: 'year', widget: 'number'}
+                  - {label: 'Academy', name: 'academy', widget: 'string'}                            

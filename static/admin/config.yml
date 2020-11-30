@@ -95,4 +95,5 @@ collections:
                 fields:
                   - {label: 'Title', name: 'title', widget: 'string'}
                   - {label: 'Year', name: 'year', widget: 'number'}
-                  - {label: 'Academy', name: 'academy', widget: 'string'}                            
+                  - {label: 'Academy', name: 'academy', widget: 'string'}                                      
+                  

@@ -95,5 +95,12 @@ collections:
                 fields:
                   - {label: 'Title', name: 'title', widget: 'string'}
                   - {label: 'Year', name: 'year', widget: 'number'}
-                  - {label: 'Academy', name: 'academy', widget: 'string'}                                      
+                  - {label: 'Academy', name: 'academy', widget: 'string'}                            
+          - label: 'Portfolio'
+            name: 'portfolio'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string'}
+              - {label: 'Enabled', name: 'enable', widget: 'boolean'}
+              - {label: 'Items Count', name: 'item_show', widget: 'number'}                        
                   

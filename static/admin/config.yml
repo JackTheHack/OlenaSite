@@ -68,7 +68,7 @@ collections:
                 fields:
                   - {label: 'Enable', name: 'enable', widget: 'boolean'}
                   - {label: 'Label', name: 'label', widget: 'string'}
-                  - {label: 'Url', name: 'url', widget: 'string'}
+                  - {label: 'Url', name: 'URL', widget: 'string'}
           - label: 'Service'
             name: 'service'
             widget: 'object'

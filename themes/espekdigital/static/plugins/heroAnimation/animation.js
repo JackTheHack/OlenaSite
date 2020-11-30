@@ -1,10 +1,12 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-    console.log("Initializing 3D animation...");
-    initializeAnimation();
-    console.log("Started animation...");
-});
+// document.addEventListener("DOMContentLoaded", function(event) {
+//     console.log("Initializing 3D animation...");
+//     initializeAnimation();
+//     console.log("Started animation...");
+// });
 
 function initializeAnimation() {
+    console.log("Started animation initialization...");
+
     var canvas = document.querySelector('#scene');
     var heroAreaSection = document.querySelector("#heroAreaSection")
     var width = heroAreaSection.clientHeight,
@@ -108,4 +110,6 @@ function initializeAnimation() {
         resizeTm = clearTimeout(resizeTm);
         resizeTm = setTimeout(onResize, 200);
     });
+
+    console.log("Done...");
 }

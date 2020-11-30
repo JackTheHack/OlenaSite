@@ -14,12 +14,15 @@
     }
   </style>
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }} ">
+  <link rel="stylesheet" href="{{ .link | absURL }} " media="print" onload="this.media='all'">
   {{ end }}
+
+  <link rel="preload" href="plugins/themify-icons/themify-icons.css" media="print" onload="this.media='all'">
+
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify }}

@@ -10,8 +10,6 @@ title = "Olena Spektor"
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
 
 # js plugin
 [[params.plugins.js]]
@@ -19,7 +17,7 @@ link = "plugins/heroAnimation/perlin.js"
 [[params.plugins.js]]
 link = "plugins/heroAnimation/three.min.js"
 [[params.plugins.js]]
-link = "plugins/heroAnimation/TweenMax.js"
+link = "plugins/heroAnimation/TweenMax.min.js"
 [[params.plugins.js]]
 link = "plugins/heroAnimation/animation.js"
 [[params.plugins.js]]
@@ -76,7 +74,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 # contact

@@ -1,6 +1,8 @@
 // Preloader js    
 $(window).on('load', function () {
 	$('.preloader').fadeOut(100);
+	console.log("Initializing 3D animation...");
+	setTimeout(initializeAnimation, 10);
 });
 
 (function ($) {
@@ -165,6 +167,22 @@ $(window).on('load', function () {
 		});
 	}
 
+	
 
 
+
+})(jQuery);
+
+(function ($) {
+	const cookieBox = document.getElementById('js-cookie-box');
+	const cookieButton = document.getElementById('js-cookie-button');
+	if (!Cookies.get('cookie-box')) {
+		cookieBox.classList.remove('cookie-box-hide');
+		cookieButton.onclick = function () {
+			Cookies.set('cookie-box', true, {
+				expires: 365
+			});
+			cookieBox.classList.add('cookie-box-hide');
+		};
+	}
 })(jQuery);

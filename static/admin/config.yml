@@ -80,7 +80,7 @@ collections:
                 widget: 'object'
                 fields:
                   - {label: 'Title', name: 'title', widget: 'string'}
-                  - {label: 'Icon', name: 'icon', widget: 'string', hint: 'Use ti-iconname format'}
+                  - {label: 'Icon', name: 'icon', widget: 'string'}
                   - {label: 'Content', name: 'content', widget: 'markdown'}
                   - {label: 'Highlighted', name: 'highlighted', widget: 'boolean'}
           - label: 'Education'

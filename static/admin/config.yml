@@ -10,6 +10,10 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Description', name: 'description', widget:'markdown'}
+      - { label: 'Date', name: 'date', widget:'datetime', required: false}
+      - { label: 'Image', name: 'image', widget:'image', required: false}
+      - { label: 'Body', name: 'body', widget:'markdown', required: false}
+      - { label: 'Content', name: 'content', widget:'markdown', required: false}
   - name: 'about'
     label: 'About'
     folder: 'content/about'
@@ -48,4 +52,4 @@ collections:
             name: 'banner'
             widget: 'object'
             fields:
-              - {label: 'Title', name: 'title', widget: 'string'}
+              - {label: 'Title', name: 'title', widget: 'markdown'}

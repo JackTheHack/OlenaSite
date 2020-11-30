@@ -1,0 +1,110 @@
+{{ define "main" }}
+
+
+  {{- partial "heroAnimationSvg.html" . -}}
+
+  <!-- hero area -->
+  <section class="hero-area bg-primary overflow-hidden" id="heroAreaSection">
+    <canvas class="scene scene--full" id="scene"></canvas>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 mx-auto">
+          <h1 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="layer" id="l4">
+      <img src="{{`images/illustrations/dots-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">            
+    </div>
+
+    <div class="layer" id="l7">
+      <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">            
+    </div>
+
+    <!-- social icon -->
+    <div class="container social-icons-container">
+      <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+        {{ range site.Params.social }}
+        <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <!-- /social icon -->
+  </section>
+  <!-- /hero area -->
+
+  <!-- about -->
+<section class="section author-section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ .Content }}
+      </div>
+      {{ with site.Data.homepage.author }}
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="{{ .author_image | absURL }}" alt="author"
+            class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+        <img src="{{ .author_signature | absURL }}" alt="signature" class="img-fluid">
+        <h4>{{ site.Params.Author }}</h4>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+
+  {{ if site.Data.homepage.about.enable }}
+  <!-- about -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center">
+          {{ with site.Data.homepage.about }}
+          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+  {{ end }}
+
+  {{- partial "blocks/services.html" . -}}
+
+  {{- partial "blocks/skills.html" . -}}
+  
+  {{- partial "blocks/experience.html" . -}}
+
+  {{- partial "blocks/education.html" . -}}
+
+  {{- partial "blocks/portfolio.html" . -}}
+
+  {{- partial "blocks/testimonials.html" . -}}
+
+  {{ if site.Data.homepage.blog.enable }}
+  <!-- blog -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
+        </div>
+        {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
+        {{ .Render "post" }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /blog -->
+  {{ end }}
+
+
+{{ end }}

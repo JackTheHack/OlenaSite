@@ -2,7 +2,7 @@
 $(window).on('load', function () {
 	$('.preloader').fadeOut(100);
 	console.log("Initializing 3D animation...");
-	setTimeout(initializeAnimation, 300);
+	setTimeout(initializeAnimation, 700);
 });
 
 (function ($) {

@@ -8,29 +8,44 @@ collections:
     label: 'Blog'
     folder: 'content/blog'
     fields:
-      - { label: 'Title', name: 'title', widget:'string'}
+      - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Description', name: 'description', widget:'markdown'}
   - name: 'about'
     label: 'About'
     folder: 'content/about'
     fields:
-      - { label: 'Title', name: 'title', widget:'string'}
-      - { label: 'Description', name: 'description', widget:'markdown'}
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'markdown'}
   - name: 'contact'
     label: 'Contact'
     folder: 'content/contact'
     fields:
-      - { label: 'Title', name: 'title', widget:'string'}
-      - { label: 'Description', name: 'description', widget:'markdown'}
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'markdown'}
   - name: 'portfolio'
     label: 'Portfolio'
     folder: 'content/portfolio'
     fields:
-      - { label: 'Title', name: 'title', widget:'string'}
-      - { label: 'Description', name: 'description', widget:'markdown'}
-  - name: 'data'
-    label: 'Data'
-    folder: 'data'
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Description', name: 'description', widget: 'markdown'}
+  - label: 'Data'
+    name: 'data'
     files:
-      - file: "/data/about.yml"
-      - file: "/data/homepage.yml"
+      - label: "About"
+        name: "about"
+        file: "data/about.yml"
+        fields:
+          - label: 'Work Process'
+            name: 'work_process'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string'}
+      - label: "Homepage"
+        name: "homepage"
+        file: "data/homepage.yml"
+        fields:
+          - label: 'Banner'
+            name: 'banner'
+            widget: 'object'
+            fields:
+              - {label: 'Title', name: 'title', widget: 'string'}

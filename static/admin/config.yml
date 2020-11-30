@@ -95,8 +95,7 @@ collections:
                 fields:
                   - {label: 'Title', name: 'title', widget: 'string'}
                   - {label: 'Year', name: 'year', widget: 'number'}
-                  - {label: 'Academy', name: 'academy', widget: 'string'}
-                  - label: 'Education'
+                  - {label: 'Academy', name: 'academy', widget: 'string'}                  
           - label: 'Portfolio'
             name: 'portfolio'
             widget: 'object'

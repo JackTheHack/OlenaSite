@@ -1,4 +1,4 @@
-$(document).ready(function () {
+document.addEventListener("DOMContentLoaded", function(event) {
     console.log("Initializing 3D animation...");
     initializeAnimation();
     console.log("Started animation...");

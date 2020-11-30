@@ -32,5 +32,5 @@ collections:
     label: 'Data'
     folder: 'data'
     files:
-      - "/data/about.yml"
-      - "/data/homepage.yml"
+      - file: "/data/about.yml"
+      - file: "/data/homepage.yml"

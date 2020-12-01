@@ -171,6 +171,7 @@ $(window).on('load', function () {
 	 });
 
 	// Shuffle js filter and masonry
+	setTimeout(function(){
 	var containerEl = document.querySelector('.shuffle-wrapper');
 	if (containerEl) {
 		var Shuffle = window.Shuffle;
@@ -186,6 +187,7 @@ $(window).on('load', function () {
 			}
 		});
 	}
+	}, 100);
 
 	
 

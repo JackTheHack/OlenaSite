@@ -108,7 +108,10 @@ function initializeAnimation() {
     }
 
     requestAnimationFrame(render);
-    window.addEventListener("mousemove", onMouseMove);
+    if(width > 720)
+    {
+        window.addEventListener("mousemove", onMouseMove);
+    }
     var resizeTm;
     window.addEventListener("resize", function () {
         resizeTm = clearTimeout(resizeTm);

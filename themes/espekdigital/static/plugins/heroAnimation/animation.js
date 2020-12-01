@@ -14,11 +14,14 @@ function initializeAnimation() {
 
     var renderer = new THREE.WebGLRenderer({
         canvas: canvas,
-        antialias: true
+        antialias: false,
+        alpha: true
     });
     renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
     renderer.setSize(width, height);
-    renderer.setClearColor(0x41228e);
+    renderer.setClearColor( 0x000000, 0 ); // the default
+    //renderer.setClearColor(0x41228e);
+    
 
     var scene = new THREE.Scene();
 
@@ -72,6 +75,7 @@ function initializeAnimation() {
     function render(a) {
         requestAnimationFrame(render);
         updateVertices(a);
+        
         renderer.render(scene, camera);
     }
 

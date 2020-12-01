@@ -489,6 +489,7 @@ textarea.form-control {
   width:100%;
   position: absolute;
   top:0px;
+  background:transparent;
 }
 
 @media(max-width:767px) {

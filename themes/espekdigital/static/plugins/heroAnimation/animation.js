@@ -75,11 +75,8 @@ function initializeAnimation() {
     function render(a) {
         requestAnimationFrame(render);
 
-        if(width > 720)
-        {
-            updateVertices(a);
-            renderer.render(scene, camera);
-        }
+        updateVertices(a);
+        renderer.render(scene, camera);
     }
 
     function onResize() {

@@ -4,7 +4,7 @@
   {{- partial "heroAnimationSvg.html" . -}}
 
   <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden" id="heroAreaSection" id="heroAreaSection">
+  <section class="hero-area bg-primary overflow-hidden" id="heroAreaSection" id="heroAreaSection" data-background="{{`images/backgrounds/bg-dots.png` | absURL}}">
     <canvas class="scene scene--full" id="scene"></canvas>
     <div class="container">
       <div class="row">
@@ -20,6 +20,10 @@
     </div>
     <div class="layer" id="l4">
       <img src="{{`images/illustrations/dots-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">            
+    </div>
+
+    <div class="layer d-block d-sm-none" id="l9">
+      <img src="{{`images/backgrounds/bg-dots.png`| relURL}}" alt="illustrations" class="bg-shape-3">            
     </div>
 
     <div class="layer" id="l7">

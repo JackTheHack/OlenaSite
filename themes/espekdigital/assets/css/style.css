@@ -526,6 +526,11 @@ textarea.form-control {
     padding: 130px 0 50px;
     overflow: hidden
   }
+
+  .scene--full
+  {
+    display:none;
+  }
 }
 
 .social-icons-container
@@ -557,7 +562,7 @@ textarea.form-control {
   .scene--full 
   {
     bottom:0px;
-    right:0px;
+    right:0px;    
   }
 }
 
@@ -614,8 +619,9 @@ textarea.form-control {
 }
 
 #l9 {
-  bottom: 100px;
-  right: -10px
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
 }
 
 .layer-bg {

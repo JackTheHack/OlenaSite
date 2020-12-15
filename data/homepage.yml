@@ -16,17 +16,17 @@ service:
   enable : true
   title : "Services"
   item:
-    - title : "Website Design"
+    - title : "🌐 Website Design"
       icon : "ti-palette"
       content : "Do you need a landing page or e-Commerce website? I'm happy to help you with any of your requirements. Best quality and satisfaction guaranteed."
       highlighted : false
 
-    - title : "Mobile app design"
+    - title : "📱 Mobile app design"
       icon : "ti-vector"
       content : "I have an experience in designing mobile apps and happy to assist you creating best possible experience for your users on any stage of development - from wireframe to creating a clickable prototype."
       highlighted : true
 
-    - title : "Graphic design"
+    - title : "🎨 Graphic design"
       icon : "ti-panel"
       content : "I'm happy to help you to create a design for your new logo, street sign or marketing materials."
       highlighted : false

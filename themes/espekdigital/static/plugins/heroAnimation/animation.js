@@ -73,9 +73,9 @@ function initializeAnimation() {
     }
 
     function render(a) {
+        
         requestAnimationFrame(render);
         updateVertices(a);
-        
         renderer.render(scene, camera);
     }
 

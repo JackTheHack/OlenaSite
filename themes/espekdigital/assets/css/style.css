@@ -216,7 +216,7 @@ a.text-dark:hover {
 }
 
 a:hover {
-  color: var(--primary-color)
+  color: white;
 }
 
 .slick-slide {
@@ -231,6 +231,12 @@ a:hover {
 .section-title {
   margin-bottom: 80px;
   font-family: bwnistaint-xbd
+}
+
+.section-contact .section-title
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media(max-width:991px)
@@ -447,6 +453,18 @@ textarea.form-control {
 }
 
 @media(max-width:991px) {
+  .navigation{
+    box-shadow: 0px 0px 150px 5px var(--primary-color);
+  }
+
+  .navigation.nav-bg
+  {
+    box-shadow: none;
+  }
+}
+
+
+@media(max-width:991px) {
   .navigation.nav-bg {
     padding: 15px 20px
   }
@@ -479,7 +497,7 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding-top: 100px;
+  padding-top: 120px;
   padding-bottom: 10px;
   position: relative
 }
@@ -492,9 +510,20 @@ textarea.form-control {
   background:transparent;
 }
 
+.hero-area .btn-cta
+{
+  box-shadow: 0px 0px 150px 5px white ;
+}
+
+.hero-area .btn-cta:hover
+{
+    background-color: white;
+    color: var(--primary-color);
+}
+
 @media(max-width:767px) {
   .hero-area {
-    padding: 100px 0 100px;
+    padding: 130px 0 50px;
     overflow: hidden
   }
 }
@@ -535,7 +564,7 @@ textarea.form-control {
 
 .hero-area h1 {
   position: relative;
-  z-index: 2
+  z-index: 2;
 }
 
 .layer {
@@ -768,6 +797,11 @@ textarea.form-control {
 
 .section-on-footer {
   margin-bottom: -250px
+}
+
+.section-contact
+{
+  padding-top: 20px;  
 }
 
 .shadow-down {

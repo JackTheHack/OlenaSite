@@ -73,10 +73,13 @@ function initializeAnimation() {
     }
 
     function render(a) {
-        
         requestAnimationFrame(render);
-        updateVertices(a);
-        renderer.render(scene, camera);
+
+        if(width > 720)
+        {
+            updateVertices(a);
+            renderer.render(scene, camera);
+        }
     }
 
     function onResize() {

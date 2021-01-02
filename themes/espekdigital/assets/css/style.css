@@ -521,9 +521,14 @@ textarea.form-control {
     color: var(--primary-color);
 }
 
+.navbar-toggler
+{
+  margin-left: auto;
+}
+
 @media(max-width:767px) {
   .hero-area {
-    padding: 130px 0 100px;
+    padding: 100px 0 40px;
     overflow: hidden
   }
 

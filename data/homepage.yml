@@ -114,20 +114,20 @@ testimonial:
   title: Testimonials
   item:
     - name: Badal Kumar Pal
-      image: /images/curryheaven-owner.png
+      image: /images/curryheaven-owner.webp
       designation: CEO and owner of Curry Heaven
       content: Olena was a dream to work with, kind and helpful and very cooperative.
         She helped me a lot and I was very happy with the end product. If anyone
         is looking for a website to be made, I’d highly recommend her!
     - name: Georgiy Kharlampiev
-      image: /images/quizcast-founder.jpg
+      image: /images/quizcast-founder.webp
       designation: Founder of Quizcast app
       content: Fast communication and really a good work. Olena is easy to work with.
         She made a great research, nice mobile app design and we achieved end
         result that we are proud to present to our customers. Would gladly work
         with her again.
     - name: Renarta Langer
-      image: /images/renarta-photo.jpg
+      image: /images/renarta-photo.webp
       designation: Owner at Renarta Hairdresser Salon
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -126,9 +126,9 @@ testimonial:
         She made a great research, nice mobile app design and we achieved end
         result that we are proud to present to our customers. Would gladly work
         with her again.
-    - name: Jessica Julie
-      image: images/testimonial/client-1.png
-      designation: CEO, Funder
+    - name: Renarta Langer
+      image: /images/renarta-photo.jpg
+      designation: Owner at Renarta Hairdresser Salon
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut

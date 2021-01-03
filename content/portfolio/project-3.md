@@ -1,30 +1,18 @@
 ---
-title: "Artwork Design"
-date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-3.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
-categories: ["illustration"]
-description: "This is meta description."
 draft: false
+title: Hairdresser Logo Design Case Study
+description: As part of this project I was tasked to create a logo and new
+  branding for the Tauranga hairdresser saloon.
+date: 2019-05-12T12:14:34+06:00
+image: images/portfolio/item-3.png
+client: Renarta Creative Hairdressing
+project_url: https://www.facebook.com/renartahair/
+categories:
+  - logo
+  - design
 ---
+Renarta Creative Hairdressing is a locally based hairdressing business in Tauranga, which needed to refresh its logo. I rebranded the original company logo and assisted in building the brand.
 
-#### Project Requirements
+The rebranding process consisted of updating the font to be more readable and modern. The new logo also needed to portray the hairdressing industry, so, as the client requested, the scissors were kept on the logo to represent the ‘hairstyling’ part of the business.  
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
-
-
-#### Project Details
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+The logo which has been developed portrays a simple, easy, elegant with a bit of boldness brand. The focus of the logo has been placed on scissors as the illustration of the hairdressing industry.

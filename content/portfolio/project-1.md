@@ -25,3 +25,5 @@ Prototype: <https://marvelapp.com/prototype/25hf680g>.
 Having completed the prototype, we had a chance to conduct a user research. It helped to find out that the design and the layout of the Home page are not clear to the user and too busy for the eye so that it requires some changes. 
 
 As a result, the prototype of the app was finished and put in the development phase. The QuizCast app is expected to be aired earlier 2021.
+
+![](uploads/quizcast-uxui.jpg)

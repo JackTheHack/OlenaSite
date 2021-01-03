@@ -4,7 +4,7 @@ title: Quiz App Case Study
 description: As part of this project I was working on creating additional
   screens to the mobile game.
 date: 2019-05-12T12:14:34+06:00
-image: images/portfolio/item-1.png
+image: uploads/quizcast-uxui.jpg
 client: Quizcast
 project_url: https://getquizcast.com
 categories:

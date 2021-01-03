@@ -4,7 +4,7 @@ title: Quiz App Case Study
 description: As part of this project I was working on creating additional
   screens to the mobile game.
 date: 2019-05-12T12:14:34+06:00
-image: uploads/quizcast-uxui.jpg
+image: /images/quizcast-uxui.jpg
 client: Quizcast
 project_url: https://getquizcast.com
 categories:
@@ -26,4 +26,4 @@ Having completed the prototype, we had a chance to conduct a user research. It h
 
 As a result, the prototype of the app was finished and put in the development phase. The QuizCast app is expected to be aired earlier 2021.
 
-![](uploads/quizcast-uxui.jpg)
+![](/images/quizcast-uxui.jpg)

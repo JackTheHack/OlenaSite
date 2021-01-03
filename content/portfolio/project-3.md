@@ -9,7 +9,6 @@ client: Renarta Creative Hairdressing
 project_url: https://www.facebook.com/renartahair/
 categories:
   - logo
-  - design
 ---
 Renarta Creative Hairdressing is a locally based hairdressing business in Tauranga, which needed to refresh its logo. I rebranded the original company logo and assisted in building the brand.
 

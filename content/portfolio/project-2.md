@@ -34,3 +34,5 @@ To increase the site's position on the Google search, I added some extra informa
 Prototype https://projects.invisionapp.com/share/49X20QVD358#/screens/440058211
 
 The design of the website has already been delivered to the client. The development phase of the project is awaiting to be started soon.
+
+![Website design illustration](/images/curryheaven4.jpg "Website design illustration")

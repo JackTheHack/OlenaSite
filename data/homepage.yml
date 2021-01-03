@@ -119,15 +119,13 @@ testimonial:
       content: Olena was a dream to work with, kind and helpful and very cooperative.
         She helped me a lot and I was very happy with the end product. If anyone
         is looking for a website to be made, I’d highly recommend her!
-    - name: Shirley Scot
-      image: images/testimonial/client-1.png
-      designation: CEO, Funder
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
+    - name: Georgiy Kharlampiev
+      image: /images/quizcast-founder.jpg
+      designation: Founder of Quizcast app
+      content: Fast communication and really a good work. Olena is easy to work with.
+        She made a great research, nice mobile app design and we achieved end
+        result that we are proud to present to our customers. Would gladly work
+        with her again.
     - name: Jessica Julie
       image: images/testimonial/client-1.png
       designation: CEO, Funder

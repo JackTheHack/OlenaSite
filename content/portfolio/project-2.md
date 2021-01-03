@@ -9,7 +9,6 @@ client: Curry Heaven
 project_url: ""
 categories:
   - website
-  - design
 ---
 CurryHeaven is an indian restaurant located in Wellington, New Zealand. 
 

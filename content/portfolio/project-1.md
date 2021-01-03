@@ -9,6 +9,7 @@ client: Quizcast
 project_url: https://getquizcast.com
 categories:
   - design
+  - mobile
 ---
 My role in this project was to design the extension of the existing quiz game (<https://play.google.com/store/apps/details?id=com.quizcast_v1>). The previous version required Chromecast connection only and the client wanted to extend the market to the pubs/restaurants visitors where they can play the quiz game anytime they wanted on their phone and win discounts or prizes from the pub/restaurants.
 

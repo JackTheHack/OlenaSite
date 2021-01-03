@@ -38,15 +38,15 @@ education:
   enable: true
   title: Education
   item:
-    - title: Marters in UX Design
-      year: "2006"
-      academy: Masassusets Institute of Technology
-    - title: Honours in Fine Arts
-      year: "2004"
-      academy: Harvard University
-    - title: Higher Secondary Certificat
-      year: "2000"
-      academy: Cardiff School
+    - title: Masters in Sociology
+      year: 2012
+      academy: Odessa Mechnikov National University
+    - title: Level 5 Diploma in Applied Computing
+      year: 2018
+      academy: Toi Ohomai Institute Of Technology
+    - title: Certificate in Photoshop, Illustrator and Photography
+      year: 2019
+      academy: Toi Ohomai Institute Of Technology
     - title: Secondary School Certificate
       year: "1998"
       academy: Cardiff School

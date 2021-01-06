@@ -4,7 +4,7 @@ title: Wellington Cafe Website Case Study
 description: The goal of the project was to completely redesign and improve the
   usability of the Wellington cafe.
 date: 2019-05-12T12:14:34+06:00
-image: /images/curryheaven2.jpg
+image: /images/curryheaven-mockup2.jpg
 client: Curry Heaven
 project_url: ""
 categories:
@@ -33,5 +33,3 @@ To increase the site's position on the Google search, I added some extra informa
 Prototype https://projects.invisionapp.com/share/49X20QVD358#/screens/440058211
 
 The design of the website has already been delivered to the client. The development phase of the project is awaiting to be started soon.
-
-![Website design illustration](/images/curryheaven4.jpg "Website design illustration")

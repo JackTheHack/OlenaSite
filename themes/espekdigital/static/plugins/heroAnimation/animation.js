@@ -7,6 +7,12 @@
 function initializeAnimation() {
     console.log("Started animation initialization...");
 
+    if(window.innerWidth <= 720)
+    {
+        console.log('Ignoring animation in mobile.');
+        return;
+    }
+
     var canvas = document.querySelector('#scene');
     var heroAreaSection = document.querySelector("#heroAreaSection")
 
@@ -14,7 +20,7 @@ function initializeAnimation() {
     {
         console.log('Missing hero section - skipping animation.');
         return;
-    }
+    }    
 
     var width = heroAreaSection.clientHeight,
         height = heroAreaSection.clientHeight;

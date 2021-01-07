@@ -104,10 +104,16 @@ $(window).on('load', function () {
 	$('.testimonial-slider').slick({
 		dots: true,
 		infinite: true,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		speed: 300,
 		slidesToShow: 1,
 		arrows: false,
-		adaptiveHeight: true
+		adaptiveHeight: false,
+		pauseOnFocus: false,
+		pauseOnHover: false,
+		pauseOnDotsHover: true,
+		touchThreshold: 3
 	});
 
 

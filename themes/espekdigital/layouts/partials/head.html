@@ -8,6 +8,11 @@
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon.svg">
+  <link rel="manifest" href="/images/icon/site.webmanifest">
+
   <style>
     :root{
       --primary-color:{{ site.Params.theme_color }};
@@ -15,7 +20,7 @@
   </style>
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
-  <script>
+  <script> 
     window.fbAsyncInit = function() {
       FB.init({
         appId            : '425547405134072',

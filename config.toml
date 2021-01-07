@@ -3,7 +3,7 @@ baseURL = "https://www.olenaspektor.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "espekdigital"
-title = "Olena Spektor"
+title = "Olena Spektor | UI/UX designer in Tauranga, New Zealand"
 
 # css plugins
 [[params.plugins.css]]
@@ -98,16 +98,12 @@ expire_days = 2
 # social site
 [[params.social]]
 icon = "ti-facebook"
-URL = "#"
+URL = "https://www.facebook.com/profile.php?id=100008905320721"
 
 [[params.social]]
 icon = "ti-instagram"
-URL = "#"
+URL = "https://www.instagram.com/the_five_percent_/"
 
 [[params.social]]
 icon = "ti-dribbble"
-URL = "#"
-
-[[params.social]]
-icon = "ti-twitter-alt"
-URL = "#"
+URL = "https://www.behance.net/spektorhel775e"

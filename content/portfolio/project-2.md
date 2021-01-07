@@ -4,12 +4,11 @@ title: Wellington Cafe Website Case Study
 description: The goal of the project was to completely redesign and improve the
   usability of the Wellington cafe.
 date: 2019-05-12T12:14:34+06:00
-image: images/portfolio/item-2.png
+image: /images/curryheaven-mockup2.jpg
 client: Curry Heaven
 project_url: ""
 categories:
   - website
-  - design
 ---
 CurryHeaven is an indian restaurant located in Wellington, New Zealand. 
 

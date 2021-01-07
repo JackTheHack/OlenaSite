@@ -9,6 +9,12 @@ function initializeAnimation() {
 
     var canvas = document.querySelector('#scene');
     var heroAreaSection = document.querySelector("#heroAreaSection")
+
+    if(heroAreaSection == null)
+    {
+        return;
+    }
+
     var width = heroAreaSection.clientHeight,
         height = heroAreaSection.clientHeight;
 
@@ -108,7 +114,8 @@ function initializeAnimation() {
     }
 
     requestAnimationFrame(render);
-    if(width > 720)
+    
+    if(window.innerWidth > 720)
     {
         window.addEventListener("mousemove", onMouseMove);
     }

@@ -12,6 +12,7 @@ function initializeAnimation() {
 
     if(heroAreaSection == null)
     {
+        console.log('Missing hero section - skipping animation.');
         return;
     }
 
@@ -114,13 +115,15 @@ function initializeAnimation() {
     }
 
     requestAnimationFrame(render);
-    
+
     if(window.innerWidth > 720)
     {
         window.addEventListener("mousemove", onMouseMove);
+        console.log('Enabled mouse move handler for desktop breakpoint.');
     }
     var resizeTm;
     window.addEventListener("resize", function () {
+        console.log('Handling browser resize event.')
         resizeTm = clearTimeout(resizeTm);
         resizeTm = setTimeout(onResize, 200);
     });

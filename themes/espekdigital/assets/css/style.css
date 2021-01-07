@@ -12,6 +12,41 @@ VERSION: Versoin Number
   font-display: swap
 }
 
+#checkboxes{
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 1rem;
+  color:#495057;
+  line-height: 1.5;
+  font-weight: 400;  
+}
+
+#checkboxes label {
+  float: left;
+}
+#checkboxes dl {
+  margin: 0;
+  list-style: none;
+  float: left;
+}
+
+#checkboxes dt {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+#checkboxes dd {
+  float:left;
+  height: 18px;
+  padding-left:0px;
+  padding-right:15px;  
+}
+
+#checkboxes dd label{
+  padding-right: 5px;
+}
+
+
 body {
   line-height: 1.2;
   font-family: roboto, sans-serif;

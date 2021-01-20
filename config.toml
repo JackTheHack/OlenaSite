@@ -48,7 +48,7 @@ name = "Portfolio"
 weight = 3
 
 [[menu.main]]
-URL = "contact"
+URL = "#contactForm"
 name = "Contact"
 weight = 4
 

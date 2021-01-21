@@ -8,6 +8,7 @@ collections:
     label: 'Blog'
     folder: 'content/blog'
     format: 'frontmatter'
+    create: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}
       - { label: 'Description', name: 'description', widget: 'markdown'}
@@ -34,6 +35,7 @@ collections:
   - name: 'portfolio'
     label: 'Portfolio'
     folder: 'content/portfolio'
+    create: true
     format: 'frontmatter'
     fields:
       - { label: 'Title', name: 'title', widget: 'string'}

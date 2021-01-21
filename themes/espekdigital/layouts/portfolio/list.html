@@ -5,6 +5,7 @@
 <!-- portfolio -->
 <section class="section">
   <div class="container">
+    
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
@@ -25,6 +26,25 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-6 mb-12 p-3">
+        <div class="card">
+          <div class="card-body text-center px-4 py-5">            
+            <a href="#">
+              <h4>💼 Download my PDF portfolio</h4>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-12 p-3 d-none d-sm-block">
+        <div class="card">
+          <div class="card-body text-center px-4 py-5">            
+            <a href="#">
+              <h4>📝 Download my CV</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row shuffle-wrapper">
       {{ range .Data.Pages }}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
@@ -39,6 +59,7 @@
       </div>
       {{ end }}
     </div>
+    
   </div>
 </section>
 <!-- /portfolio -->

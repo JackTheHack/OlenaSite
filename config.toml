@@ -61,6 +61,7 @@ logo = ""
 theme_color = "#41228e"
 # contact info
 phone = "+64 22 0193344"
+phoneTitle = "022 0193329"
 email = "spektor.helen@gmail.com"
 address = "2 Boyle Mews, Papamoa 3118, Bay Of Plenty, New Zealand"
 # meta description
@@ -107,3 +108,24 @@ URL = "https://www.instagram.com/the_five_percent_/"
 [[params.social]]
 icon = "ti-dribbble"
 URL = "https://www.behance.net/spektorhel775e"
+
+# footer
+[[params.footer.col1]]
+title = "Graphic designer in Tauranga"
+URL = "blog/graphic-designer-tauranga"
+
+[[params.footer.col1]]
+title = "Graphic designer in Auckland"
+URL = "blog/graphic-designer-tauranga"
+
+[[params.footer.col1]]
+title = "Graphic designer in Wellington"
+URL = "blog/graphic-designer-tauranga"
+
+[[params.footer.col2]]
+title = "Download my CV"
+URL = "blog/graphic-designer-tauranga"
+
+[[params.footer.col2]]
+title = "Download my PDF portfolio"
+URL = "blog/graphic-designer-tauranga"

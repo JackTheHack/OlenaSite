@@ -4,7 +4,8 @@
   window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
-      version          : 'v9.0'
+      version          : 'v9.0',
+      autoLogAppEvents : true      
     });
   };
 
@@ -17,7 +18,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Your Chat Plugin code -->
-<div class="fb-customerchat" attribution=setup_tool page_id="103035155120665" greeting_dialog_display="hide">
+<div class="fb-customerchat" attribution=setup_tool page_id="103035155120665" greeting_dialog_display="hide" minimized="true">
 </div>
 
 <header class="navigation fixed-top" >

@@ -53,6 +53,12 @@ collections:
         name: "homepage"
         file: "data/homepage.yml"
         fields:
+          - label: 'Portfolio PDF'
+            name: 'portfolioLink'
+            widget: 'file'
+          - label: 'CV PDF'
+            name: 'cvLink'
+            widget: 'file'
           - label: 'Banner'
             name: 'banner'
             widget: 'object'

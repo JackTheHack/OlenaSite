@@ -1,6 +1,8 @@
+portfolioLink: /images/portfolio_olena-spektor.pdf
 blog:
   enable: false
   title: Blogs
+cvLink: /images/cv_olena-spektor.pdf
 banner:
   title: Olena Spektor <br> UI/UX designer
 about:
@@ -83,6 +85,28 @@ skill:
     - title: Web App
       progress: 70%
       color: "#ffbcaa"
+footer:
+  col1:
+    - title: Graphic designer in Tauranga
+      URL: blog/graphic-designer-tauranga
+    - title: Graphic designer in Auckland
+      URL: blog/graphic-designer-auckland
+    - title: Graphic designer in Wellington
+      URL: blog/graphic-designer-wellington
+  col2:
+    - title: Graphic designer in Tauranga
+      URL: blog/graphic-designer-tauranga
+    - title: Graphic designer in Auckland
+      URL: blog/graphic-designer-auckland
+    - title: Graphic designer in Wellington
+      URL: blog/graphic-designer-wellington
+  col3:
+    - title: Graphic designer in Tauranga
+      URL: blog/graphic-designer-tauranga
+    - title: Graphic designer in Auckland
+      URL: blog/graphic-designer-auckland
+    - title: Graphic designer in Wellington
+      URL: blog/graphic-designer-wellington
 clients_logo_slider:
   enable: false
   item:
@@ -126,31 +150,5 @@ testimonial:
     - name: Renarta Langer
       image: /images/renarta-photo.webp
       designation: Owner at Renarta Hairdresser Salon
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur.
-footer:
-  col1:
-    - title: "Graphic designer in Tauranga"
-      URL: "blog/graphic-designer-tauranga"
-    - title: "Graphic designer in Auckland"
-      URL: "blog/graphic-designer-auckland"
-    - title: "Graphic designer in Wellington"
-      URL: "blog/graphic-designer-wellington"
-  col2:
-    - title: "Graphic designer in Tauranga"
-      URL: "blog/graphic-designer-tauranga"
-    - title: "Graphic designer in Auckland"
-      URL: "blog/graphic-designer-auckland"
-    - title: "Graphic designer in Wellington"
-      URL: "blog/graphic-designer-wellington"
-  col3:
-    - title: "Graphic designer in Tauranga"
-      URL: "blog/graphic-designer-tauranga"
-    - title: "Graphic designer in Auckland"
-      URL: "blog/graphic-designer-auckland"
-    - title: "Graphic designer in Wellington"
-      URL: "blog/graphic-designer-wellington"
+      content: Olena is amazing to work with. She made me a good and modern looking
+        logo that me and my customers are really happy with.

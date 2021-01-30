@@ -116,6 +116,25 @@ $(window).on('load', function () {
 		touchThreshold: 3
 	});
 
+	//portfolio slider
+	$('.portfolio-slides').slick({
+		slidesToShow: 1,
+		infinite: true,
+		dot: false,
+		prevArrow: ".arrow-left",
+		nextArrow: ".arrow-right",
+		autoplay: false,
+		arrows: true,
+		centerMode:true,
+    	slidesToShow: 1,
+    	slidesToScroll: 1,
+		dots: true,
+		infinite: true,
+		cssEase: 'linear',
+		variableWidth: true,
+		variableHeight: true
+	});
+
 
 	// clients logo slider
 	$('.client-logo-slider').slick({

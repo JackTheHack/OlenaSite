@@ -57,6 +57,15 @@
         <div class="content">{{.Content}}</div>
       </div>
     </div>
+    <div class="row">
+      <div class="slideshow">
+      {{ range .Images }}        
+        <div class="slideshow-image">
+          <img src="{{.Url}}"/>
+        </div>
+      {{ end}}
+      </div>
+    </div>
   </div>
 </section>
 <!-- /portfolio -->

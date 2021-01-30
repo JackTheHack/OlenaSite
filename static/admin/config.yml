@@ -46,6 +46,12 @@ collections:
       - { label: 'Project Url', name: 'project_url', widget: 'string', required: false}
       - { label: 'Categories', name: 'categories', widget: 'list', required: false}
       - { label: 'Body', name: 'body', widget: 'markdown', required: false}
+      - label: 'Images'
+        name: 'images'
+        widget: 'list'
+        required: false
+        allow_add: true
+        field: {label: Image, name: image, widget: image}
   - label: 'Data'
     name: 'data'
     files:      

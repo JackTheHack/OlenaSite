@@ -253,11 +253,11 @@ a.text-dark:hover {
 a:hover {
   color: white;
 }
-
+/* 
 .slick-slide {
   outline: 0
-}
-
+} */
+/* 
 .slick-slide .image {
   padding: 10px;
 }
@@ -271,7 +271,7 @@ a:hover {
 }
 .slick-slider {
   margin: 30px auto 50px;
-}
+} */
 
 .portfolio-slides-container
 {

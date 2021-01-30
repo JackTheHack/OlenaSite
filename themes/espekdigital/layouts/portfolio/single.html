@@ -58,13 +58,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="portfolio-slides">
-      {{ range .Params.Images }}        
-        <div>
-          <img src="{{.}}"/>
+      <div class="col-12">        
+        <div class="portfolio-slides-container">
+          <button class="arrow-left">Previous</button>
+          <button class="arrow-right">Next</button>
+          <div class="slider portfolio-slides">
+            {{ range .Params.Images }}
+            <div>
+              <div class="image">
+                <img src="{{.}}" />
+              </div>
+            </div>
+            {{ end}}
+          </div>
         </div>
-      {{ end}}
-      </div>
+        </div>
     </div>
   </div>
 </section>

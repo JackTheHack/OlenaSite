@@ -118,9 +118,6 @@ $(window).on('load', function () {
 
 	//portfolio slider
 	$('.portfolio-slides').slick({
-		slidesToShow: 1,
-		infinite: true,
-		dot: false,
 		prevArrow: ".arrow-left",
 		nextArrow: ".arrow-right",
 		autoplay: false,
@@ -128,7 +125,7 @@ $(window).on('load', function () {
 		centerMode:true,
     	slidesToShow: 1,
     	slidesToScroll: 1,
-		dots: true,
+		dots: false,
 		infinite: true,
 		cssEase: 'linear',
 		variableWidth: true,

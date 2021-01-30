@@ -59,9 +59,9 @@
     </div>
     <div class="row">
       <div class="slideshow">
-      {{ range .Images }}        
+      {{ range .Params.Images }}        
         <div class="slideshow-image">
-          <img src="{{.Url}}"/>
+          <img src="{{.url}}"/>
         </div>
       {{ end}}
       </div>

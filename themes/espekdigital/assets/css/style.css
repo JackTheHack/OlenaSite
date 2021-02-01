@@ -256,29 +256,30 @@ a:hover {
 
 .portfolio-slides-container
 {
-  position: relative;
+  /* position: relative; */
 }
 
 .portfolio-slides-container .slick-slide
 {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .portfolio-slides-container .slick-slide .image, .portfolio-slides-container .slick-slide .image img
 {
-  /* height: 100%; */
+  margin: 0 auto;
+  width: 100%;
 }
 
-.portfolio-slides-container .slick-track
+/* .portfolio-slides-container .slick-track
 {
     display: flex !important;
     height: 500px;
-}
+} */
 
-.portfolio-slides-container .slick-slide
+/* .portfolio-slides-container .slick-slide
 {
     height: inherit !important;
-}
+} */
 
 .portfolio-slides-container .arrow-left,
 .portfolio-slides-container .arrow-right

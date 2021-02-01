@@ -122,14 +122,19 @@ $(window).on('load', function () {
 		nextArrow: ".arrow-right",
 		autoplay: false,
 		arrows: true,
-		centerMode:true,
-    	slidesToShow: 1,
-    	slidesToScroll: 1,
-		dots: false,
+		dots: true,
 		infinite: true,
-		cssEase: 'linear',
-		variableWidth: true,
-		variableHeight: true
+		speed: 300,
+		slidesToShow: 2,
+		adaptiveHeight: true,
+		responsive: [
+			{
+			  breakpoint: 600,
+			  settings: {
+				slidesToShow: 1
+			  }
+			}
+		  ]	
 	}).on('setPosition', function (event, slick) {
 		slick.$slides.css('height', slick.$slideTrack.height() + 'px');
 	});

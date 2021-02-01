@@ -59,9 +59,15 @@
     </div>
     <div class="row">
       <div class="col-12">        
-        <div class="portfolio-slides-container">
-          <button class="arrow-left">Previous</button>
-          <button class="arrow-right">Next</button>
+        <div class="portfolio-slides-container pt-5">
+          <button class="arrow-left">
+            <span class="ti-arrow-left"/>
+            Previous
+          </button>
+          <button class="arrow-right">
+            Next
+            <span class="ti-arrow-right"/>
+          </button>
           <div class="slider portfolio-slides">
             {{ range .Params.Images }}
             <div>

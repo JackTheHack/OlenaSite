@@ -130,6 +130,8 @@ $(window).on('load', function () {
 		cssEase: 'linear',
 		variableWidth: true,
 		variableHeight: true
+	}).on('setPosition', function (event, slick) {
+		slick.$slides.css('height', slick.$slideTrack.height() + 'px');
 	});
 
 

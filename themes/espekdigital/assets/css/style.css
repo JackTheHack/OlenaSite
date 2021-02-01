@@ -253,39 +253,40 @@ a.text-dark:hover {
 a:hover {
   color: white;
 }
-/* 
-.slick-slide {
-  outline: 0
-} */
-/* 
-.slick-slide .image {
-  padding: 10px;
-}
-.slick-slide img {
-  border: 5px solid #fff;
-  display: block;
-  width: 100%;
-}
-.slick-slide img.slick-loading {
-  border: 0;
-}
-.slick-slider {
-  margin: 30px auto 50px;
-} */
 
 .portfolio-slides-container
 {
   position: relative;
 }
 
+.portfolio-slides-container .slick-slide
+{
+  padding: 10px;
+}
+
+.portfolio-slides-container .slick-slide .image, .portfolio-slides-container .slick-slide .image img
+{
+  /* height: 100%; */
+}
+
+.portfolio-slides-container .slick-track
+{
+    display: flex !important;
+    height: 500px;
+}
+
+.portfolio-slides-container .slick-slide
+{
+    height: inherit !important;
+}
+
 .portfolio-slides-container .arrow-left,
 .portfolio-slides-container .arrow-right
 {
   position: absolute;
-  top: -20px;
+  top: 20px;
   border: 0px;
   background-color: white;
-  text-decoration: underline;
   cursor: pointer
   ;
 }

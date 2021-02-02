@@ -54,7 +54,44 @@ collections:
         field: {label: Image, name: image, widget: image}
   - label: 'Data'
     name: 'data'
-    files:      
+    files:  
+      - label: "Footer"    
+        name: "footer"
+        file: "data/footer.yml"
+        fields:
+          - label: 'Column 1'
+            name: 'col1'
+            widget: 'list'
+            allow_add: true
+            fields: 
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'URL'
+                name: 'URL'
+                widget: 'link'
+          - label: 'Column 2'
+            name: 'col2'
+            widget: 'list'
+            allow_add: true
+            fields: 
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'URL'
+                name: 'URL'
+                widget: 'link'
+          - label: 'Column 3'
+            name: 'col3'
+            widget: 'list'
+            allow_add: true
+            fields: 
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'URL'
+                name: 'URL'
+                widget: 'link'
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"

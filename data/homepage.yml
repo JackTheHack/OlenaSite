@@ -85,28 +85,6 @@ skill:
     - title: Web App
       progress: 70%
       color: "#ffbcaa"
-footer:
-  col1:
-    - title: Graphic designer in Tauranga
-      URL: blog/graphic-designer-tauranga
-    - title: Graphic designer in Auckland
-      URL: blog/graphic-designer-auckland
-    - title: Graphic designer in Wellington
-      URL: blog/graphic-designer-wellington
-  col2:
-    - title: Graphic designer in Tauranga
-      URL: blog/graphic-designer-tauranga
-    - title: Graphic designer in Auckland
-      URL: blog/graphic-designer-auckland
-    - title: Graphic designer in Wellington
-      URL: blog/graphic-designer-wellington
-  col3:
-    - title: Graphic designer in Tauranga
-      URL: blog/graphic-designer-tauranga
-    - title: Graphic designer in Auckland
-      URL: blog/graphic-designer-auckland
-    - title: Graphic designer in Wellington
-      URL: blog/graphic-designer-wellington
 clients_logo_slider:
   enable: false
   item:

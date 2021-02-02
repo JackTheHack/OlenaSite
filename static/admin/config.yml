@@ -69,7 +69,7 @@ collections:
                 widget: 'string'
               - label: 'URL'
                 name: 'URL'
-                widget: 'link'
+                widget: 'string'
           - label: 'Column 2'
             name: 'col2'
             widget: 'list'
@@ -80,7 +80,7 @@ collections:
                 widget: 'string'
               - label: 'URL'
                 name: 'URL'
-                widget: 'link'
+                widget: 'string'
           - label: 'Column 3'
             name: 'col3'
             widget: 'list'
@@ -91,7 +91,7 @@ collections:
                 widget: 'string'
               - label: 'URL'
                 name: 'URL'
-                widget: 'link'
+                widget: 'string'
       - label: "Homepage"
         name: "homepage"
         file: "data/homepage.yml"

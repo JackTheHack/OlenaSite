@@ -1,21 +1,27 @@
 col1:
   - title: Graphic designer in Tauranga
-    URL: blog/graphic-designer-tauranga
+    URL: /blog/graphic-designer-in-tauranga/
   - title: Graphic designer in Auckland
-    URL: blog/graphic-designer-auckland
+    URL: /blog/graphic-designer-in-auckland/
   - title: Graphic designer in Wellington
-    URL: blog/graphic-designer-wellington
+    URL: /blog/graphic-designer-in-wellington/
+  - title: Web Design Auckland
+    URL: https://www.olenaspektor.com/blog/web-design-auckland/
 col2:
-  - title: Graphic designer in Tauranga
-    URL: blog/graphic-designer-tauranga
-  - title: Graphic designer in Auckland
-    URL: blog/graphic-designer-auckland
-  - title: Graphic designer in Wellington
-    URL: blog/graphic-designer-wellington
+  - title: Outsourcing consulting
+    URL: /blog/software-development-outsourcing-consulting/
+  - title: Logo design and branding
+    URL: /blog/logo-design/
+  - title: Graphic design
+    URL: /blog/graphic-design/
+  - title: Mobile app design
+    URL: /blog/mobile-app-design/
+  - title: One page websites
+    URL: /blog/one-page-websites/
 col3:
-  - title: Graphic designer in Tauranga
-    URL: blog/graphic-designer-tauranga
-  - title: Graphic designer in Auckland
-    URL: blog/graphic-designer-auckland
-  - title: Graphic designer in Wellington
-    URL: blog/graphic-designer-wellington
+  - title: Our approach
+    URL: /blog/our-approach/
+  - title: Download PDF portfolio
+    URL: /images/portfolio_olena-spektor.pdf
+  - title: Download my CV
+    URL: /images/cv_olena-spektor.pdf

@@ -12,19 +12,19 @@ col2:
     URL: /blog/software-development-outsourcing-consulting/
   - title: Logo design and branding
     URL: /blog/logo-design/
-  - title: Graphic design
-    URL: /blog/graphic-design/
   - title: Mobile app design
     URL: /blog/mobile-app-design/
   - title: One page websites
     URL: /blog/one-page-websites/
   - title: Responsive Web Design
     URL: /blog/responsive-web-design/
+  - title: Graphic design
+    URL: /blog/graphic-design/
 col3:
-  - title: My approach & process
-    URL: /blog/our-approach/
   - title: About me
     URL: /about
+  - title: My approach & process
+    URL: /blog/our-approach/
   - title: Download PDF portfolio
     URL: /images/portfolio_olena-spektor.pdf
   - title: Download my CV

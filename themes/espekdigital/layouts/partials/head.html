@@ -13,6 +13,21 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon.svg">
   <link rel="manifest" href="/images/icon/site.webmanifest">
 
+  <!--  Essential META Tags -->
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta property="og:image" content="/images/social/facebook.jpg">  
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content=" {{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="twitter:image" content=" /images/social/twitter.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="Contact me for a free quote for graphic design or UI/UX design.">
+
+  <!--  Non-Essential, But Recommended -->
+
+  <meta property="og:site_name" content="Olena Spektor | UI/UX designer in Tauranga">
+  
+
   <style>
     :root{
       --primary-color:{{ site.Params.theme_color }};

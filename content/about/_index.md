@@ -7,7 +7,7 @@ draft: false
 ---
 #### **ABOUT ME**
 
-`<br>`
+  
 
 Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
 
@@ -15,7 +15,9 @@ As a graphic designer with a Diploma in Applied Computing and a Master's degree 
 
 No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design.
 
-**`<br><br>`**
+  
+
+  
 
 #### **MY APPROACH**
 

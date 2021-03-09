@@ -8,11 +8,18 @@ draft: false
 #### **ABOUT ME**<br>
 
 
+
+
 Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
 
 As a graphic designer with a Diploma in Applied Computing and a Master's degree in social science, my main focus is designing for websites and mobile apps applying UX principles. However, I am still able to assist you with your marketing and branding needs like logos, flyers, posters, brochures etc.  
 
-No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design.<br><br><br>
+No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design.
+
+
+
+
+
 
 
 

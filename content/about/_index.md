@@ -16,7 +16,7 @@ No job is too big or too small. Get in touch for a quote or to discuss any ideas
 
 
 
-#### **MY APPROACH**
+#### **MY APPROACH**<br>
 
 From research to prototype... I believe that all good designs have scientific data in the background. That's why I always start my work from deep research on user experience to look for the best practices in the industry to help you to show your brand from the best side. 
 

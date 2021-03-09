@@ -5,9 +5,10 @@ author_image: /images/1615329388456-2.jpg
 author_signature: /images/my-signatura.png
 draft: false
 ---
-#### **ABOUT ME**
+#### **ABOUT ME**<br>
 
-<br>Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
+
+Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
 
 As a graphic designer with a Diploma in Applied Computing and a Master's degree in social science, my main focus is designing for websites and mobile apps applying UX principles. However, I am still able to assist you with your marketing and branding needs like logos, flyers, posters, brochures etc.  
 

@@ -7,17 +7,13 @@ draft: false
 ---
 #### **ABOUT ME**
 
-  
+<br>Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
 
-Hello... and welcome! I am a creative based in Tauranga and work with clients both local and worldwide to design beautiful and functional experience. 
-
-As a graphic designer with a Diploma in Applied Computing and a Master's degree in social science, my main focus is designing for web and apps applying UX principles. However, I am still able to assist you with your marketing and branding needs like logos, flyers, posters, brochures etc.  
+As a graphic designer with a Diploma in Applied Computing and a Master's degree in social science, my main focus is designing for websites and mobile apps applying UX principles. However, I am still able to assist you with your marketing and branding needs like logos, flyers, posters, brochures etc.  
 
 No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design.
 
-  
 
-  
 
 #### **MY APPROACH**
 
@@ -26,6 +22,8 @@ From research to prototype... I believe that all good designs have scientific da
 I also believe that prototyping is one of the most crucial stages of the design. That's why I start to make it during the wireframing stage, which helps to check the visual balance and test the tiny details of the user experience. 
 
 I mostly work with Adobe Creative Suite, but I am always open to explore and try new tools if you prefer them. 
+
+
 
 #### **MY PHILOSOPHY**
 

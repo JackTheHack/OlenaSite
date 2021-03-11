@@ -16,7 +16,7 @@ As a graphic designer with a Diploma in Applied Computing and a Master's degree 
 
 No job is too big or too small. [Get in touch](https://www.olenaspektor.com/contact/) for a quote or to discuss any ideas you might have so I can help you to create an outstanding design. 
 
-Look at case studies for Tauranga [here](https://www.olenaspektor.com/portfolio/).
+Look at my case studies for Tauranga [here](https://www.olenaspektor.com/portfolio/).
 
 #### **My approach**
 

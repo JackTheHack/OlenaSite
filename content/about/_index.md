@@ -14,7 +14,9 @@ Hello... and welcome! I am a creative based in Tauranga and work with clients bo
 
 As a graphic designer with a Diploma in Applied Computing and a Master's degree in social science, my main focus is designing for websites and mobile apps applying UX principles. However, I am still able to assist you with your marketing and branding needs like logos, flyers, posters, brochures etc.  
 
-No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design.
+No job is too big or too small. Get in touch for a quote or to discuss any ideas you might have so I can help you to create an outstanding design. 
+
+Look at case studies for Tauranga [here](https://www.olenaspektor.com/portfolio/).
 
 #### **My approach**
 

@@ -75,7 +75,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 # contact

@@ -258,6 +258,14 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.content{
+  overflow: hidden;
+}
+
+.content ul li {
+  list-style-type: disc;
+}
+
 .portfolio-slides-container
 {
   /* position: relative; */

@@ -39,7 +39,7 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }} " media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ .link | absURL }} " media="all">
   {{ end }}
 
   <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css"/>

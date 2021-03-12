@@ -6,13 +6,15 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-9 text-center mb-4">
-          <img src="{{.Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded mb-4">
-          <p class="font-secondary">Published on {{ .PublishDate.Format "Jan 02, 2006" }} by <span class="text-primary">{{site.Params.Author}}</span></p>
+          <img src="{{.Params.image | absURL }}" alt="{{.Title}}" class="img-fluid rounded mb-4">          
         </div>
         <div class="col-lg-9">
           <div class="content">
             {{.Content }}
           </div>
+        </div>
+        <div class="col-lg-9">
+          <p class="font-secondary">Published on {{ .PublishDate.Format "Jan 02, 2006" }} by <span class="text-primary">{{site.Params.Author}}</span></p>
         </div>
       </div>
     </div>

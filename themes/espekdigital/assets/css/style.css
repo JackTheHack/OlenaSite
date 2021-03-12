@@ -250,8 +250,12 @@ a.text-dark:hover {
   color: var(--primary-color) !important
 }
 
-a:hover {
+footer a:hover {
   color: white;
+}
+
+.content a:hover {
+  text-decoration: underline;
 }
 
 .portfolio-slides-container

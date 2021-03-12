@@ -85,6 +85,10 @@ h1,
   .h1 {
     font-size: 40px
   }
+
+  .hero-area h1{
+    font-size: 65px;
+  }
 }
 
 h2,

@@ -254,7 +254,7 @@ a.text-dark:hover {
   color: var(--primary-color) !important
 }
 
-footer a:hover {
+footer a:hover, .card a:hover {
   color: white;
 }
 

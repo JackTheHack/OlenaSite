@@ -645,8 +645,14 @@ textarea.form-control {
 }
 
 .social-icons-container a 
-{
-  color:black !important;
+{  
+  color: #00a9ff!important;
+    font-size: 40px;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(#00a9ff, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
 }
 
 @media(max-width: 992px)

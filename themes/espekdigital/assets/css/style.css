@@ -207,6 +207,11 @@ body {
   color: #fff
 }
 
+hiding-header
+{
+  background-color: #41228e;
+}
+
 .preloader {
   position: fixed;
   top: 0;
